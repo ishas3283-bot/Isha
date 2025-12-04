@@ -1,2 +1,2 @@
 # Isha
-Aspiring IT Trainee | Learning HTML | CSS | JS | Python | Transitioning from Content Writing to Tech | Building projects daily
+Here is latest link of some of my projects: https://ishas3283-bot.github.io/Isha/ 
