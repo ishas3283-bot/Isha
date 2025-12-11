@@ -1,0 +1,18 @@
+#You'll buy the gadget if it's on sale and you've enough cash, but not if it's out of stock
+Stock = input("Whether phone is available? (On Sale/Out Of Stock): ")
+Cash = input("Do you've cash to purchase? ")
+Rupee = input("How much you're ready to pay? ")
+
+Gadget_phone = (Stock == "On Sale")
+Cash_Availability = (Cash == "Yes")
+Ruppee = (Rupee == "$4")
+
+Overall_Permutating = Gadget_phone and Rupee and Cash_Availability
+print(f"You can buy your phone {'On Sale' if Overall_Permutating else 'not available'}")
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Output:
+Whether phone is available? (On Sale/Out Of Stock): On Sale
+Do you've cash to purchase? Yes
+How much you're ready to pay? $2
+You can buy your phone On Sale
