@@ -1,2 +1,3 @@
 # Isha
+I created these projects using basic coding concepts in HTML, CSS, JavaScript, and Python. Each project helped me understand foundational ideas like page structure, styling, DOM interactions, and core programming logic. I’m currently strengthening these fundamentals so I can confidently move toward more advanced technologies. Next, I plan to learn additional languages, understand APIs, improve my logic building, and eventually create full-feature applications using databases, authentication, and real-world workflows. 
 Here is latest link of some of my projects: https://ishas3283-bot.github.io/Isha/ 
