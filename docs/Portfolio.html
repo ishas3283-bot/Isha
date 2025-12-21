@@ -20,4 +20,25 @@
             <h2 style="text-align: center;">About Me</h2>
             <p style="text-align: left; ;">I’m an English Honours graduate who turns content into measurable growth. I’ve executed SEO, website content, GMB, and digital marketing—not theory. I’m now adding HTML, CSS, JavaScript, and Python to build tech-enabled marketing systems. <br><br>I don’t chase titles. I build depth, outcomes, and leverage that compounds over time. If you want impact, consistency, and execution, I’m professional you hire.</p>
         </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div id="images"></div>
+        </section>
+        <script>
+            fetch('assets/images.txt')
+                .then(response => response.text())
+                .then(text => {
+                    const images = text.split('\n').filter(line => line.trim());
+                    const container = document.getElementById('images');
+                    images.forEach(imgName => {
+                        const img = document.createElement('img');
+                        img.src = 'assets/' + imgName.trim();
+                        img.alt = imgName.trim();
+                        img.style.width = '200px';
+                        img.style.margin = '10px';
+                        container.appendChild(img);
+                    });
+                })
+                .catch(error => console.error('Error loading images.txt:', error));
+        </script>
 </body>
